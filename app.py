@@ -11,7 +11,7 @@ def hello_monkey():
     #resp.message("Hello, Mobile Monkey")
 
     cat_url = requests.get("http://thecatapi.com/api/images/get?format=src&type=gif")
-    resp = '<?xml version="1.0" encoding="UTF-8"?><Response><Message><Body>Meow</Body><Media>%s</Media></Message></Response>' % (cat_url.url)
+    resp = '<?xml version="1.0" encoding="UTF-8"?><Response><Message><Body>Meeeeeooooww</Body><Media>%s</Media></Message></Response>' % (cat_url.url)
     return str(resp)
 
 
