@@ -8,7 +8,7 @@ import requests
 def hello_monkey():
     """Respond to incoming calls with a simple text message."""
     #resp = twilio.twiml.Response()
-    #resp.message("Hello, Mobile Monkey")
+    #resp.message("Hello, Mobile Monkey") 
 
     cat_url = requests.get("http://thecatapi.com/api/images/get?format=src&type=gif")
     resp = """<?xml version="1.0" encoding="UTF-8"?>
