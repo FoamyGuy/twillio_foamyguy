@@ -15,7 +15,7 @@ def hello_monkey():
                <Response>
                 <Message>
                  <Body>\n
-                 /\_/\\n
+                 /\_/\ \n
                  ( o.o )\n
                  &gt; ^ &lt;</Body>
                  <Media>%s</Media>
