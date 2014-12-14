@@ -14,8 +14,8 @@ def hello_monkey():
     resp = """<?xml version="1.0" encoding="UTF-8"?>
                <Response>
                 <Message>
-                 <Body>/\_/\
-                 ( o.o )
+                 <Body>/\_/\\
+                 ( o.o )\
                  &gt; ^ &lt;</Body>
                  <Media>%s</Media>
                 </Message>
